@@ -471,7 +471,7 @@ function setLayout(layout) {
     showLayout()
 }
 
-window.showRandom = function(maxTries = 1) {
+window.showRandom = function(maxTries = 100) {
     let best
     let score = 31
     
